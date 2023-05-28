@@ -4,12 +4,16 @@
   "description": "Create Profile for you employee's",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "index.js"
   },
   "author": "Justen Tatum",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.6",
+    "inquirer": "^8.2.4",
     "jest": "^29.5.0"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
